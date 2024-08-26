@@ -2,9 +2,9 @@ package com.contact_book_api.services;
 
 import com.contact_book_api.persistence.entities.ContactEntity;
 import com.contact_book_api.persistence.repositories.ContactRepository;
-import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
